@@ -1,8 +1,8 @@
-imp from 'react'
-
+import React from 'react'
+import './Login.css'
 function Login() {
   return (
-    <div>
+    <div className='box'>
       
     </div>
   )
