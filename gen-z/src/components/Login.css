@@ -1,0 +1,15 @@
+.box{
+    height: 962px;
+    width: 1383px;
+  }
+  
+  .box .rectangle {
+    /* -webkit-backdrop-filter: blur(200px) brightness(100%); */
+    /* backdrop-filter: blur(200px) brightness(100%); */
+    background-color: #00000038;
+    height: 962px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1383px;
+  }
