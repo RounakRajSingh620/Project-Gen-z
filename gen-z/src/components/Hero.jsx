@@ -24,6 +24,11 @@ function NavScrollExample() {
             <Nav.Link href="#action1">Customize</Nav.Link>
             
             
+
+
+
+
+            
             
           </Nav>
           <Form className="d-flex">
