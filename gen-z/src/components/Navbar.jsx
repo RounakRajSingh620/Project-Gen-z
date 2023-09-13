@@ -3,6 +3,8 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Vector from "../assets/Vector.png";
+import girl2 from "../assets/girl2.png"
+// import circle from "../assets/circle.png"
 
 import './Navbar.css'
 
@@ -13,7 +15,7 @@ function NavScrollExample() {
       <Nav.Link className='autoo ' href="/">Customer service</Nav.Link>
       <div className="new">
       <div className='blue'>Ge</div>
-      <div className='purple'>nz</div>
+      <div className='purple'>nZ</div>
 
       </div>
       <div className='picc'>
@@ -58,6 +60,15 @@ function NavScrollExample() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel> */}
+     <div className="nun2">
+  <div className="girl2">
+    <div className="circle-container">
+      <img src={girl2} alt='girl2' />
+      {/* <img className='circle' src={circle} alt='circle' /> */}
+    </div>
+  </div>
+</div>
+
     </div>
 
 

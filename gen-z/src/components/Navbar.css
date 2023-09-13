@@ -3,7 +3,8 @@
     margin: 0;
     margin-left: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
 }
 .imgg{
     height: 20px;
@@ -13,6 +14,7 @@
     justify-content:  space-between;
     padding-top: 50px;
     margin-bottom: 30px;
+    height: 10vh;
 }
 .blue{
     background-color: #616C86;
@@ -34,4 +36,15 @@ float: left;
 .new{
     display: flex;
     justify-content:center;
+}
+.nun2{
+    background-color: #0038c938;
+    height: 80vh;
+    display: flex;
+}
+.girl2 img{
+    height: 80vh;
+    left: 5vw;
+    width: 50vw;
+    position: absolute;
 }

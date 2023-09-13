@@ -23,7 +23,7 @@ function Login() {
         <Form.Control
           type="password"
           id="inputPassword5"
-          aria-describedby="passwordHelpBlock"/>
+          aria-describedby="passwordHelpBlock" />
       </Form.Group>
       <Button className='button' variant="secondary" size="lg">
         Login
@@ -44,7 +44,12 @@ function Login() {
       <div className="girlimage">
         <img src={girlimage} alt='girl image' />
       </div>
+        <div className="new">
+          <div className='blue'>Ge</div>
+          <div className='purple'>nZ</div>
+        </div>
     </div>
+
 
   );
 }
