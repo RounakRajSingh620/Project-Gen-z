@@ -1,19 +1,31 @@
 .box {
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
+  height: 100%;
   background-color: #0038c938;
+  /* Fallback background color for unsupported browsers */
+  display: flex;
+  justify-content: space-around;
+  /* Semi-transparent background color for modern browsers */
+}
+
+/* Apply backdrop filter for browsers that support it */
+@supports (-webkit-backdrop-filter: blur(200px) brightness(100%)) or (backdrop-filter: blur(200px) brightness(100%)) {
+  .box {
+    -webkit-backdrop-filter: blur(200px) brightness(100%);
+    backdrop-filter: blur(200px) brightness(100%);
+    /* Fallback background color for browsers that partially support backdrop-filter */
+  }
 }
 
 .label {
   display: flex;
   justify-content: center;
-  width: 60vw;
+  width: 70vw;
   height: 100vh;
+
+
 }
 
-.values {
-  padding: 20vw;
-}
 
 .text-wrapper {
   color: #000000;
@@ -35,19 +47,9 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
+  left: 22vw;
   top: 20vh;
   width: 25vw;
-}
-
-.password {
-  width: 25vw;
-  color: #000000;
-  font-family: "Mukta-SemiBold", Helvetica;
-  font-size: 30px;
-  font-weight: 600;
-  line-height: normal;
-  position: absolute;
-  top: 32vh;
 }
 
 .button {
@@ -56,7 +58,7 @@
   border-radius: 5px;
   height: 92px;
   position: absolute;
-  top: 15vh;
+  top: 40vh;
   width: 25vw;
   color: #ffffff;
   font-family: "Mukta-SemiBold", Helvetica;
@@ -64,14 +66,16 @@
   font-weight: 600;
   letter-spacing: 0;
   line-height: normal;
+  left: 22vw;
 }
 
 .signUp {
   display: flex;
-  top: 30vh;
+  top: 55vh;
   position: absolute;
   justify-content: space-around;
   width: 25vw;
+  left: 22vw;
 }
 
 .line {
@@ -91,23 +95,36 @@
 
 .images {
   display: flex;
-  justify-content: space-between; /* Added spacing between images */
+  justify-content: space-between;
+  /* Added spacing between images */
   padding: 1%;
-  height: 10vh;
+  height: 14vh;
   position: absolute;
-  top: 40vh;
-  
-  /* background-color: #ffffff; */
+  top: 60vh;
+  width: 32vw;
+  left: 19vw;
 }
 
 .images img {
   margin-right: 19px;
-  border-radius: 10px; 
-  /* Adjust the margin to control the spacing */
+  border-radius: 10px;
+  cursor: pointer;
+
 }
-
-
 
 .images::hover {
   color: #000000;
+}
+
+.girlimage {
+  width: 30vw;
+  height: 100vh;
+}
+
+.girlimage img {
+  height: 784px;
+  object-fit: cover;
+  position: absolute;
+  top: 10vh;
+  width: 381px back
 }
