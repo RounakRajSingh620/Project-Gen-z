@@ -1,0 +1,23 @@
+.nun{
+    display: flex;
+    justify-content:  space-between;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+.blue{
+    background-color: #616C86;
+    font-size: 45px;
+}
+
+
+.purple{
+    background-color: #897C7C;
+    font-size: 45px;
+}
+.sin{
+float: left;
+}
+.new{
+    display: flex;
+    justify-content: center;
+}
