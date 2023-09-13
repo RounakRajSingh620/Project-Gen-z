@@ -2,8 +2,10 @@ import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import './Login.css';
-import google from "../assets/google.png"; 
- 
+import google from "../assets/google.png";
+import facebook from "../assets/facebook.png";
+import apple from "../assets/apple.png";
+
 
 function Login() {
   return (
@@ -36,8 +38,12 @@ function Login() {
               </div>
               <div className="line"></div>
             </div>
-            {/* Insert the image */}
-            <img src={google} alt="Example" />
+            <div className="images">
+
+              <img src={google} alt="google" />
+              <img src={facebook} alt="facebook" />
+              <img src={apple} alt="apple" />
+            </div>
           </Form>
         </Form>
       </div>
