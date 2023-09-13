@@ -2,12 +2,13 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Carousel from 'react-bootstrap/Carousel';
+import Vector from "../assets/Vector.png";
+
 import './Navbar.css'
 
 function NavScrollExample() {
   return (
-    <Container>
+    <div className='all'>
       <div className="nun">
       <Nav.Link className='autoo ' href="/">Customer service</Nav.Link>
       <div className="new">
@@ -16,12 +17,12 @@ function NavScrollExample() {
 
       </div>
       <div className='picc'>
-      <img src="./Vector.png"/>
       <div className='sin'>Sign In / Sign Up</div>
+      <img className='imgg' src={Vector} alt="vector" />
       </div>
       </div>
 
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar expand="lg">
         <Container fluid>
 
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -49,16 +50,16 @@ function NavScrollExample() {
         </Container>
       </Navbar>
 
-      <Carousel>
+      {/* <Carousel>
         <Carousel.Item>
           <Carousel.Caption>
             <h3>First slide label</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
-      </Carousel>
+      </Carousel> */}
+    </div>
 
-    </Container>
 
    
 

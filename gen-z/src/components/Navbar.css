@@ -1,3 +1,13 @@
+.all{
+    background-color: #D9D9D9;
+    margin: 0;
+    margin-left: 0;
+    padding: 0;
+    width: 100%;
+}
+.imgg{
+    height: 20px;
+}
 .nun{
     display: flex;
     justify-content:  space-between;
@@ -6,11 +16,17 @@
 }
 .blue{
     background-color: #616C86;
-    font-size: 45px;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    font-size: 50px;
 }
 .purple{
     background-color: #897C7C;
-    font-size: 45px;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    font-size: 50px;
 }
 .sin{
 float: left;
