@@ -25,7 +25,7 @@ function Login() {
           id="inputPassword5"
           aria-describedby="passwordHelpBlock" />
       </Form.Group>
-      <Button className='button' variant="secondary" size="lg">
+      <Button className='button' variant="secondary">
         Login
       </Button>
       <div className="signUp">

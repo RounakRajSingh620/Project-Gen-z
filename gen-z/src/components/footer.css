@@ -1,0 +1,36 @@
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+ul{
+    list-style-type: none;
+}
+.heading{
+    width: 33%;
+    font-weight: bolder;
+}
+.listitems{
+    width: 33%;
+    font-weight: lighter;
+}
+.listitems:hover{
+    font-weight: bold;
+}
+.webimg{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    cursor: pointer;
+}
+.webbimgg{
+    margin-right: 25px;
+}
+.webbimgg:hover{
+    filter: invert(100);    
+    
+}
