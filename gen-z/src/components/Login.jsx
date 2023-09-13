@@ -1,11 +1,10 @@
-// import React from 'react'
+import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import './Login.css'
-// import Col from 'react-bootstrap/Col';
-// import Container from 'react-bootstrap/Container';
-// import Image from 'react-bootstrap/Image';
-// import Row from 'react-bootstrap/Row';
+import './Login.css';
+import google from "../assets/google.png"; 
+ 
+
 function Login() {
   return (
     <div className='box'>
@@ -15,7 +14,6 @@ function Login() {
         </div>
       </div>
       <div className="values">
-
         <Form>
           <Form.Group className="email" controlId="exampleForm.ControlInput1">
             <Form.Label>Email Id</Form.Label>
@@ -38,32 +36,13 @@ function Login() {
               </div>
               <div className="line"></div>
             </div>
-
-            {/* <Container >
-              <Row>
-                <Col className='image'>
-                  <Image src="google.png" thumbnail />
-                </Col>
-                <Col >
-                  <Image src="facebook.png" thumbnail/>
-                </Col>
-                <Col >
-                  <Image src="apple.png " thumbnail />
-                </Col>
-              </Row>
-            </Container> */}
+            {/* Insert the image */}
+            <img src={google} alt="Example" />
           </Form>
         </Form>
       </div>
     </div>
-
-
-
-
-
-  )
+  );
 }
 
-export default Login
-
-
+export default Login;
