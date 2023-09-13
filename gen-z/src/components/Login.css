@@ -37,7 +37,6 @@
   position: absolute;
   top: 20vh;
   width: 25vw;
-
 }
 
 .password {
@@ -49,7 +48,6 @@
   line-height: normal;
   position: absolute;
   top: 32vh;
-
 }
 
 .button {
@@ -90,13 +88,26 @@
   line-height: normal;
   position: absolute;
 }
-.images{
+
+.images {
   display: flex;
-  justify-content: space-between;
-
-  height: 75px;
+  justify-content: space-between; /* Added spacing between images */
+  padding: 1%;
+  height: 10vh;
   position: absolute;
-  /* width: px; */
   top: 40vh;
+  
+  /* background-color: #ffffff; */
+}
 
+.images img {
+  margin-right: 19px;
+  border-radius: 10px; 
+  /* Adjust the margin to control the spacing */
+}
+
+
+
+.images::hover {
+  color: #000000;
 }

@@ -40,7 +40,7 @@ function Login() {
             </div>
             <div className="images">
 
-              <img src={google} alt="google" />
+              <img  src={google} alt="google" />
               <img src={facebook} alt="facebook" />
               <img src={apple} alt="apple" />
             </div>
