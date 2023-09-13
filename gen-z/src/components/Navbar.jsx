@@ -3,10 +3,24 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Carousel from 'react-bootstrap/Carousel';
+import './Navbar.css'
 
 function NavScrollExample() {
   return (
     <Container>
+      <div className="nun">
+      <Nav.Link className='autoo ' href="/">Customer service</Nav.Link>
+      <div className="new">
+      <div className='blue'>Ge</div>
+      <div className='purple'>nz</div>
+
+      </div>
+      <div className='picc'>
+      <img src="./Vector.png"/>
+      <div className='sin'>Sign In / Sign Up</div>
+      </div>
+      </div>
+
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container fluid>
 
@@ -26,7 +40,7 @@ function NavScrollExample() {
             <Form className="d-flex">
               <Form.Control
                 type="search"
-                placeholder="Search"
+                placeholder="Search products"
                 className="me-2"
                 aria-label="Search"
               />
