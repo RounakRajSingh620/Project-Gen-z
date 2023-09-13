@@ -1,5 +1,5 @@
 .all {
-    background-color: #D9D9D9;
+    background-color: #d9d9d9;
     margin: 0;
     margin-left: 0;
     padding: 0;
@@ -41,34 +41,68 @@
 }
 
 .nun2 {
-    background-color: #0038c938;
+    background: rgba(0, 56, 201, 0.22);
+    backdrop-filter: blur(100px);
     height: 80vh;
     display: flex;
     justify-content: space-between;
 }
 
-.girl2 img {
+.circle-container {
+    position: relative;
+    /* background-color: black ; */
+}
+
+.circle {
+    height: 36vh;
+    left: 20vw;
+    top: 13vw;
+    z-index: -33;
+    width: 36vh;
+    border: 0px solid #616c86;
+    border-radius: 100%;
+    position: relative;
+}
+
+.girl {
     height: 80vh;
-    left: vw;
-    width: 50vw;
+    z-index: 1000;
+    background-color: transparent;
+    width: 60vw;
     position: absolute;
 }
 
-.context {
-    width: 50vw;
-    height: 80vh;
+.text {
+    width: 40vw;
     display: flex;
     justify-content: start;
     align-items: center;
 }
 
 .welcome-to {
+
     color: #000000;
-    font-family: "Jacques Francois-Regular";
+    font-family: "Jacques Francois";
     font-size: 80px;
     font-weight: 400;
     line-height: normal;
     position: relative;
     width: 443px;
+}
+
+.new2 {
+    color: #000000;
+    font-family: "Jacques Francois";
+    font-size: 100px;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    right: 8vw;
+    height: 7vh;
+    top: 52vh;
+    display: flex;
+    justify-content: center;
+
+
 
 }
