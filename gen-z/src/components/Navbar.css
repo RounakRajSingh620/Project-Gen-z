@@ -8,8 +8,6 @@
     background-color: #616C86;
     font-size: 45px;
 }
-
-
 .purple{
     background-color: #897C7C;
     font-size: 45px;
@@ -19,5 +17,5 @@ float: left;
 }
 .new{
     display: flex;
-    justify-content: center;
+    justify-content:center;
 }
