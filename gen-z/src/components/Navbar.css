@@ -1,4 +1,4 @@
-.all{
+.all {
     background-color: #D9D9D9;
     margin: 0;
     margin-left: 0;
@@ -6,45 +6,69 @@
     width: 100vw;
     height: 100vh;
 }
-.imgg{
+
+.imgg {
     height: 20px;
 }
-.nun{
+
+.nun {
     display: flex;
-    justify-content:  space-between;
+    justify-content: space-between;
     padding-top: 50px;
     margin-bottom: 30px;
     height: 10vh;
 }
-.blue{
-    background-color: #616C86;
+
+.blue {
+    background: linear-gradient(to left, #897C7C, #616C86);
     align-items: center;
     justify-content: center;
-    width: 70px;
+    width: 140px;
     font-size: 50px;
+    font-family: "Jacques Francois";
+    letter-spacing: 2.5px;
+    border-radius: 3px;
+
 }
-.purple{
-    background-color: #897C7C;
-    justify-content: center;
-    align-items: center;
-    width: 65px;
-    font-size: 50px;
+
+.sin {
+    float: left;
 }
-.sin{
-float: left;
-}
-.new{
+
+.new {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
-.nun2{
+
+.nun2 {
     background-color: #0038c938;
     height: 80vh;
     display: flex;
+    justify-content: space-between;
 }
-.girl2 img{
+
+.girl2 img {
     height: 80vh;
-    left: 5vw;
+    left: vw;
     width: 50vw;
     position: absolute;
+}
+
+.context {
+    width: 50vw;
+    height: 80vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.welcome-to {
+    color: #000000;
+    font-family: "Jacques Francois-Regular";
+    font-size: 80px;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    width: 443px;
+
 }

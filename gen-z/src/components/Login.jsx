@@ -44,9 +44,8 @@ function Login() {
       <div className="girlimage">
         <img src={girlimage} alt='girl image' />
       </div>
-        <div className="new">
-          <div className='blue'>Ge</div>
-          <div className='purple'>nZ</div>
+      <div className="new">
+          <div className='blue' >Gen Z</div>
         </div>
     </div>
 

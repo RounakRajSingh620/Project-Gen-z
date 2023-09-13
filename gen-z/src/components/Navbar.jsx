@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Vector from "../assets/Vector.png";
 import girl2 from "../assets/girl2.png"
-// import circle from "../assets/circle.png"
+
 
 import './Navbar.css'
 
@@ -12,16 +12,14 @@ function NavScrollExample() {
   return (
     <div className='all'>
       <div className="nun">
-      <Nav.Link className='autoo ' href="/">Customer service</Nav.Link>
-      <div className="new">
-      <div className='blue'>Ge</div>
-      <div className='purple'>nZ</div>
-
-      </div>
-      <div className='picc'>
-      <div className='sin'>Sign In / Sign Up</div>
-      <img className='imgg' src={Vector} alt="vector" />
-      </div>
+        <Nav.Link className='autoo ' href="/">Customer service</Nav.Link>
+        <div className="new">
+          <div className='blue' >Gen Z</div>
+        </div>
+        <div className='picc'>
+          <div className='sin'>Sign In / Sign Up</div>
+          <img className='imgg' src={Vector} alt="vector" />
+        </div>
       </div>
 
       <Navbar expand="lg">
@@ -60,19 +58,29 @@ function NavScrollExample() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel> */}
-     <div className="nun2">
-  <div className="girl2">
-    <div className="circle-container">
-      <img src={girl2} alt='girl2' />
-      {/* <img className='circle' src={circle} alt='circle' /> */}
-    </div>
-  </div>
-</div>
+      <div className="nun2">
+        <div className="girl2">
+          <div className="circle-container">
+            <img src={girl2} alt='girl2' />
+
+          </div>
+        </div>
+        <div className="context">
+          <div className="welcome-to">
+            Welcome
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To
+          </div>
+          <div className="new">
+            <div className='blue' >Gen Z</div>
+          </div>
+        </div>
+      </div>
 
     </div>
 
 
-   
+
 
   );
 }
